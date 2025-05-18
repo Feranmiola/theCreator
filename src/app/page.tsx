@@ -1,6 +1,8 @@
 "use client";
+import MakingItBigText from "@/components/MakingItBigText";
 import ContactUs from "@/components/PageComponents/ContactUs";
 import Hero from "@/components/PageComponents/Hero";
+import MakingIt from "@/components/PageComponents/MakingIt";
 import Topbar from "@/components/Shared/Topbar";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -56,6 +58,7 @@ export default function Home() {
       <Topbar />
       <Hero />
       <ContactUs />
+      <MakingIt />
     </div>
   );
 }
