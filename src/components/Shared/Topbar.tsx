@@ -8,6 +8,21 @@ const Topbar = () => {
         <Logo />
         <p className="text-deepGreen font-bold text-2xl">The Creator</p>
       </div>
+
+      <div className="flex flex-row items-center space-x-5">
+        <p className="text-deepGreen cursor-pointer hover:font-bold transition-all ease-in-out font-medium text-xl">
+          Partners
+        </p>
+        <p className="text-deepGreen cursor-pointer hover:font-bold transition-all ease-in-out font-medium text-xl">
+          How We Work
+        </p>
+        <p className="text-deepGreen cursor-pointer hover:font-bold transition-all ease-in-out font-medium text-xl">
+          Review
+        </p>
+        <p className="text-deepGreen cursor-pointer hover:font-bold transition-all ease-in-out font-medium text-xl">
+          Charity
+        </p>
+      </div>
     </div>
   );
 };
