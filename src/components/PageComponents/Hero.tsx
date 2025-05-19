@@ -7,7 +7,7 @@ import MainText from "../MainText";
 const Hero = () => {
   return (
     <div className="flex w-full items-end justify-between flex-row">
-      <LeftEffects />
+      {/* <LeftEffects /> */}
 
       <div className="flex flex-col items-center h-[817.04px] space-y-5 justify-center ">
         <div className="w-[997px] h-[336px] relative">
@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <RightEffects />
+      {/* <RightEffects /> */}
     </div>
   );
 };
