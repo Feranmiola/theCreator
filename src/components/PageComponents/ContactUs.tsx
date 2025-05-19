@@ -8,7 +8,16 @@ const ContactUs = () => {
       <div className="absolute left-0 bottom-0 z-0">
         <LineContact />
       </div>
-      <ContactUsTexts />
+      <div className="relative w-[992px] h-[134px]">
+        <p className="z-10 absolute text-center leading-none tracking-tight w-full font-bold text-[56px] text-deepGreen">
+          Contact us today to explore
+          <br />
+          partnership opportunities!
+        </p>
+        <div className="absolute right-[9.5rem] bottom-2">
+          <ContactUsTexts />
+        </div>
+      </div>
 
       <div className="w-[1192px] h-[340px] roudned-[24px] bg-white z-10"></div>
     </div>
