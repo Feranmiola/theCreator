@@ -6,8 +6,11 @@ import MainText from "../MainText";
 
 const Hero = () => {
   return (
-    <div className="flex w-full items-end justify-between flex-row">
-      {/* <LeftEffects /> */}
+    <div className="flex w-full items-center justify-center h-[817px] relative flex-row">
+      <img
+        src="https://res.cloudinary.com/debiu7z1b/image/upload/v1747646072/Frame_37_duozpk.webp"
+        className="w-auto h-[817px] absolute left-0"
+      />
 
       <div className="flex flex-col items-center h-[817.04px] space-y-5 justify-center ">
         <div className="w-[997px] h-[336px] relative">
@@ -40,7 +43,10 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <RightEffects /> */}
+      <img
+        src="https://res.cloudinary.com/debiu7z1b/image/upload/v1747646073/Frame_36_qixyin.webp"
+        className="w-[auto] h-[661px] absolute right-0 bottom-0"
+      />
     </div>
   );
 };
