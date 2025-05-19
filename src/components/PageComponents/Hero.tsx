@@ -10,7 +10,18 @@ const Hero = () => {
       <LeftEffects />
 
       <div className="flex flex-col items-center h-[817.04px] space-y-5 justify-center ">
-        <MainText />
+        <div className="w-[997px] h-[336px] relative">
+          <p className="text-center absolute z-10 text-deepGreen font-bold text-[112px] leading-none tracking-tight">
+            Spark your brand's
+            <br />
+            imginative flair
+            <br />
+            with us
+          </p>
+          <div className="absolute z-0 top-[7rem] left-[4rem]">
+            <TextLine />
+          </div>
+        </div>
 
         <p className="text-deepGreen text-xl max-w-[773px] text-center">
           Our team combines strategy, design, and technology to breathe life
