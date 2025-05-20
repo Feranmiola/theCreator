@@ -3,6 +3,7 @@ import MakingItBigText from "@/components/MakingItBigText";
 import ContactUs from "@/components/PageComponents/ContactUs";
 import Hero from "@/components/PageComponents/Hero";
 import MakingIt from "@/components/PageComponents/MakingIt";
+import Steps from "@/components/PageComponents/Steps";
 import WeDoIt from "@/components/PageComponents/WeDoIt";
 import Topbar from "@/components/Shared/Topbar";
 import Image from "next/image";
@@ -61,6 +62,7 @@ export default function Home() {
       <ContactUs />
       <MakingIt />
       <WeDoIt />
+      <Steps />
     </div>
   );
 }
