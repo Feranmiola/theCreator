@@ -1,4 +1,5 @@
 import React from "react";
+import Copyright from "../Copyright";
 
 const Footer = () => {
   return (
@@ -20,6 +21,28 @@ const Footer = () => {
           />
           <div className="cursor-pointer bg-brightPink text-deepGreen rounded-[100px] font-semibold text-[18px] w-[102px] h-full flex items-center justify-center hover:bg-transparent border border-transparent hover:border-brightPink transition ease-in-out">
             Join
+          </div>
+        </div>
+
+        <div className="w-full flex items-center justify-between flex-row">
+          <div className="flex flex-row items-center space-x-1">
+            <Copyright />
+            <p className="text-deepGreen text-xl">Copywriting</p>
+          </div>
+
+          <div className="flex flex-row items-center space-x-5">
+            <p className="font-medium text-deepGreen text-xl hover:font-bold transition-all ease-in-out cursor-pointer">
+              Partners
+            </p>
+            <p className="font-medium text-deepGreen text-xl hover:font-bold transition-all ease-in-out cursor-pointer">
+              How we work
+            </p>
+            <p className="font-medium text-deepGreen text-xl hover:font-bold transition-all ease-in-out cursor-pointer">
+              Review
+            </p>
+            <p className="font-medium text-deepGreen text-xl hover:font-bold transition-all ease-in-out cursor-pointer">
+              Charity
+            </p>
           </div>
         </div>
       </div>
