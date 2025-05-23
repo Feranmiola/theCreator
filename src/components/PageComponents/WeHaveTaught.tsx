@@ -3,6 +3,7 @@ import IconImage1 from "../IconImage1";
 import LineHowTo1 from "../LineHowTo1";
 import LineHowTo2 from "../LineHowTo2";
 import ArrowLeft from "../ArrowLeft";
+import ArrowRight from "../ArrowRight";
 
 const WeHaveTaught = () => {
   return (
@@ -53,6 +54,10 @@ const WeHaveTaught = () => {
           <div className="flex flex-row items-center space-x-3">
             <div className="rounded-full border border-brightPink cursor-pointer hover:bg-brightPink transition-all ease-in-out p-2 flex items-center justify-center">
               <ArrowLeft />
+            </div>
+
+            <div className="rounded-full border border-brightPink cursor-pointer hover:bg-brightPink transition-all ease-in-out p-2 flex items-center justify-center">
+              <ArrowRight />
             </div>
           </div>
         </div>
