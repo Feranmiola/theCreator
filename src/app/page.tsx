@@ -2,6 +2,7 @@
 import MakingItBigText from "@/components/MakingItBigText";
 import Charity from "@/components/PageComponents/Charity";
 import ContactUs from "@/components/PageComponents/ContactUs";
+import Footer from "@/components/PageComponents/Footer";
 import Hero from "@/components/PageComponents/Hero";
 import MakingIt from "@/components/PageComponents/MakingIt";
 import Steps from "@/components/PageComponents/Steps";
@@ -61,6 +62,7 @@ export default function Home() {
       <Steps />
       <WeHaveTaught />
       <Charity />
+      <Footer />
     </div>
   );
 }
