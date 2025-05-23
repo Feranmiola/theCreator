@@ -1,5 +1,6 @@
 "use client";
 import MakingItBigText from "@/components/MakingItBigText";
+import Charity from "@/components/PageComponents/Charity";
 import ContactUs from "@/components/PageComponents/ContactUs";
 import Hero from "@/components/PageComponents/Hero";
 import MakingIt from "@/components/PageComponents/MakingIt";
@@ -59,6 +60,7 @@ export default function Home() {
       <WeDoIt />
       <Steps />
       <WeHaveTaught />
+      <Charity />
     </div>
   );
 }
