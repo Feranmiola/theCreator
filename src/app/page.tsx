@@ -5,6 +5,7 @@ import Hero from "@/components/PageComponents/Hero";
 import MakingIt from "@/components/PageComponents/MakingIt";
 import Steps from "@/components/PageComponents/Steps";
 import WeDoIt from "@/components/PageComponents/WeDoIt";
+import WeHaveTaught from "@/components/PageComponents/WeHaveTaught";
 import Topbar from "@/components/Shared/Topbar";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -57,6 +58,7 @@ export default function Home() {
       <MakingIt />
       <WeDoIt />
       <Steps />
+      <WeHaveTaught />
     </div>
   );
 }
