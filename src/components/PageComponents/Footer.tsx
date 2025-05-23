@@ -1,9 +1,12 @@
 import React from "react";
 import Copyright from "../Copyright";
+import InstagramIcon from "../InstagramIcon";
+import FacebookIcon from "../FacebookIcon";
+import LinkedinIcon from "../LinkedinIcon";
 
 const Footer = () => {
   return (
-    <div className="w-full flex items-center justify-center pt-10">
+    <div className="w-full flex items-center justify-center py-10">
       <div className="w-[1192px] flex items-center justify-center flex-col space-y-[5rem]">
         <div className="flex flex-col space-y-2 items-center justify-center">
           <p className="text-deepGreen text-[56px] font-bold">
@@ -43,6 +46,18 @@ const Footer = () => {
             <p className="font-medium text-deepGreen text-xl hover:font-bold transition-all ease-in-out cursor-pointer">
               Charity
             </p>
+          </div>
+
+          <div className="flex flex-row items-center space-x-3">
+            <div className="hover:scale-110 transition-all ease-in-out cursor-pointer">
+              <InstagramIcon />
+            </div>
+            <div className="hover:scale-110 transition-all ease-in-out cursor-pointer">
+              <FacebookIcon />
+            </div>
+            <div className="hover:scale-110 transition-all ease-in-out cursor-pointer">
+              <LinkedinIcon />
+            </div>
           </div>
         </div>
       </div>
