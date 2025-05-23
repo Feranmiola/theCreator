@@ -57,6 +57,10 @@ const Steps = () => {
           className="w-[581px] h-auto"
         />
       </div>
+
+      <p className="text-xl text-deepGreen tracking-tight py-20 ">
+        Hear from our customers from Top Youtube Channel
+      </p>
     </div>
   );
 };

@@ -48,6 +48,7 @@ export default function Home() {
       window.removeEventListener("resize", updateScrollbar);
     };
   }, []);
+
   return (
     <div className="flex flex-col w-screen relative  min-h-screen bg-[#F8F5F0]">
       <Topbar />
